@@ -1,0 +1,297 @@
+/* Navbar */
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
+    --tetiary-color: #F4f5ff;
+    --undertone-color: #C9C9C9;
+    --btn-color: #33373E;
+    --background-color: #282D35;
+    --nav-color: #292b2c;
+    --logo-color: #FFFFFF;
+    --navicon-color: #C9C9C9;
+}
+
+.light-theme {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --tetiary-color: #000000;
+    --undertone-color: #36454F;
+    --btn-color: #33373E;
+    --background-color: #FFFFFF;
+    --nav-color: #ebebeb;
+    --logo-color: #282D35;
+    --navicon-color: #33373E;
+}
+
+.logo {
+    color: var(--logo-color);
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 18px;
+}
+nav {
+    background-color: var(--nav-color);
+}
+.logo:hover {
+    color: var(--undertone-color);
+}
+
+.theme-image {
+    width: 20px;
+}
+
+.button-text {
+    font-weight: 500;
+}
+
+.btn {
+    border: 0.2px solid var(--undertone-color);
+    background-color: var(--btn-color);
+    margin-right: 70px;
+}
+
+.idea {
+    width: 18px;
+}
+.guitar {
+    width: 18px;
+}
+.git {
+    width: 18px;
+}
+.console {
+    width: 18px;
+}
+
+.about,.music,.git-hub,.gaming {
+    color: var(--navicon-color);
+    text-decoration: none;
+}
+.about:hover {
+    color: var(--primary-color);
+}
+.music:hover {
+    color: var(--primary-color);
+}
+.git-hub:hover {
+    color: var(--primary-color);
+}
+.gaming:hover {
+    color: var(--primary-color);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+/* @media (max-width: 200px){
+   .idea {
+    cursor: auto;
+   }
+} */
+
+@media (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+    .console,.gaming,.guitar,.music {
+        display: none;
+    }
+    .idea {
+        margin-right: 50px;
+        width: 25px;
+    }
+    .git-hub {
+        margin-right: 50px;
+        margin: 0;
+    }
+    .nav-item {
+        padding-right: 1px;
+        margin-left: 15px;
+    }
+    .bio {
+        padding-right: 50px;
+    }
+    .toggler {
+        margin-right: 20px;
+        margin: 0;
+    }
+    .footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-link {
+        font-size: 12px;
+    }
+    
+  }
+
+  @media (max-width: 1500px) and (min-width: 930px){
+    .planet-straight{
+        display: none;
+    }
+  }
+  @media (max-width: 930px) {
+    .planet-arrangement {
+        display: none;
+    }
+  }
+
+/* Main Body*/
+.greeting {
+    font-size: 32px;
+    color:  var(--tetiary-color);
+    font-weight: bold;
+    margin: 0 10% 0 10%;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: left;
+
+}
+.intro {
+    font-size: 25px;
+    color: var(--undertone-color);
+    padding: 0 10% 0 10%;
+    overflow: hidden;
+}
+
+.bio {
+    font-size: 18px;
+    color: var(--primary-color);
+    /* margin: 0 75px 0 75px ; */
+    padding: 0 10% 0 10%;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    
+    
+}
+
+.mid-about {
+    margin: 0 75px 0 75px ;
+}
+/* Planet Arrangement*/
+.venu {
+    width: 60px;
+    padding: 5px 2px 0 2px;
+}
+.uranu {
+    width: 60px;
+    padding: 5px 2px 0 2px;
+}
+.neptun {
+    width: 60px;
+    padding: 5px 2px 0 2px;
+}
+.su{
+    width: 60px;
+    padding: 5px 2px 0 2px;
+}
+.unknow {
+    width: 60px;
+    padding: 5px 2px 0 2px;
+}
+
+.planet-straight {
+    padding: 10% 10% 0 10%;
+}
+
+
+
+/*table*/
+.venus {
+    width: 68px;
+}
+
+.uranus {
+    width: 80px;
+}
+
+.neptune {
+    width: 95px;
+}
+
+.unknown {
+    width: 93px;
+}
+.planet-arrangement {
+    margin-top: 130px;
+    padding: 0, 10%, 0, 10%;
+}
+.planet-space {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.sun {
+    width: 25px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+
+  .me-card {
+    margin: 7rem 50px 0 50px;
+    padding: 5%;
+    color: var(--primary-color);
+    background-color: var(--nav-color);
+    max-width: 60%;
+  }
+
+
+  .contact-list {
+    padding: 0 10% 0 10%;
+    /* margin-left: 50px; */
+    color: var(--primary-color);
+  }
+
+  .wyd {
+    font-size: 30px;
+    color:  var(--tetiary-color);
+    font-weight: bold;
+    padding: 50px 10% 0 10%;
+    overflow: hidden;
+  }
+
+  .hori-rule {
+    color: var(--undertone-color);
+    max-width: 60%;
+    margin: auto;
+    margin-left: 75px;
+  }
+
+  .updater {
+    color: var(--primary-color);
+    margin: 0 10% 0 10%;
+  }
+  .sub-head {
+    font-size: 20px;
+    font-family: sans-serif;
+    color:  var(--tetiary-color);
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .foota {
+    display: flex-box;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 15%;
+    
+  }
+
+  .footer-link {
+    color: var(--undertone-color);
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  
