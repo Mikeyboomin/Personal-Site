@@ -1,24 +1,40 @@
-var theme = document.getElementById('theme-btn') 
-var icon = document.querySelector('theme-image')
-
+const theme = document.getElementById('theme-btn') 
+const icon = document.querySelector('theme-image')
+const btnText = document.querySelector('.button-text')
 
 theme.onclick = function(){
     document.body.classList.toggle('light-theme')
-    
-    
-    if(document.body.classList.contains('light-theme')){
-        theme.innerText = 'Light';
-        // icon.src = 'images/sunny.png';
-    } else {
-        theme.innerText = 'Dark';
-        // icon.src = 'images/moon.png';
-    }
-    
-}
 
-function changeIimage(){
-    document.getElementById('theme-icon').src="images/sunny.png"
+
+    if(document.body.classList.contains('light-theme')){
+        btnText.innerText = 'Light';
+        icon.src = 'images/sunny.png';
+    }else{
+        btnText.innerText = 'Dark';
+        icon.src = 'images/moon.png'
+    }
 }
+    
+
+
+
+// theme.onclick = function(){
+//     document.body.classList.toggle('light-theme')
+    
+    
+//     if(document.body.classList.contains('light-theme')){
+//         theme.innerText = 'Light';
+//         // icon.src = 'images/sunny.png';
+//     } else {
+//         theme.innerText = 'Dark';
+//         // icon.src = 'images/moon.png';
+//     }
+    
+// }
+
+// function changeIimage(){
+//     document.getElementById('theme-icon').src="images/sunny.png"
+// }
 
 
 
