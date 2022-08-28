@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articles</title>
+    <title>resume</title>
     <link rel="icon" href="images/mikey-m.png">
     <script
       src="https://kit.fontawesome.com/b2e3806d96.js"
@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <section class="nvy">
     <nav class="navbar fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand logo" href="index.html">Michael Ogar</a>
@@ -38,37 +37,51 @@
               >Projects <i class="fa-solid fa-arrow-up-right-from-square"></i
             ></a>
           </div>
-          <button class="btn btn-secondary toggler" id="theme-btn" onclick="changeIimage()">
-            <img class="theme-image" src="images/moon.png" alt="" />
+          <button class="btn btn-secondary toggler" id="theme-btn">
+            <img class="theme-image" src="images/moon.png" alt="" id="theme-icon" />
             <span class="button-text">Dark</span>
           </button>
         </div>
       </nav>
-</section>
-    <div class="row">
+      <h1 class="prjt-header">Projects</h1>
+      <section>
         
-        <div class="col-lg-8">
-            <h1 class="greeting">Writing</h1>
-            <p class="years">2022</p>
-            <hr class="hori-rule">
-            <p class="arti">Check back later, I'll be writing some programming articles soon!</p>
-        </div>
-        <div class="col-lg-4">
-            <div class="toc-card table-content">
-              <p class="toc">Table of content</p>
-              <p class="subheading">Intro to web design</p>
-              <a href="#"><p class="prjt-desc">Intro to HTML</p></a>
-              <a href="#"><p class="prjt-desc">HTML Fundamentals</p></a>
-              <a href="#"><p class="prjt-desc">HTML Syntax</p></a>
-              <a href="#"><p class="prjt-desc">HTML Structure</p></a>
-              <a href="#"><p class="prjt-desc">HTML Forms</p></a>
-              <a href="#"><p class="prjt-desc">HTML Buttons</p></a>
-              <a href="#"><p class="prjt-desc">HTML Containers</p></a>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="prjt-card">
+                    <p class="prjt-year">2022</p>
+                    <p class="prjt-name">Sticky Notes App</p>
+                    <p class="prjt-desc">A free open source notes app.</p>
+                    <a href="https://github.com/Mikeyboomin/Sticky-Note-App"><button class="prjt-btn">Source<i class="fa-solid fa-arrow-up-right-from-square linka"></i
+                        ></button></a>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="prjt-card">
+                    <p class="prjt-year">2022</p>
+                    <p class="prjt-name">Image Editor</p>
+                    <p class="prjt-desc">A simple image editor.</p>
+                    <a href="https://github.com/Mikeyboomin/Image-Editor"><button class="prjt-btn">Source<i class="fa-solid fa-arrow-up-right-from-square linka"></i
+                        ></button></a>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="prjt-card">
+                    <p class="prjt-year">2022</p>
+                    <p class="prjt-name">michaelogar.com</p>
+                    <p class="prjt-desc">The source for this website.</p>
+                    <a href="https://github.com/Mikeyboomin/Personal-Site"><button class="prjt-btn">Source<i class="fa-solid fa-arrow-up-right-from-square linka"></i
+                        ></button></a>
+                    
+                    
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="foota">
+      </section>
+    
+      <div class="foota">
         <a class="footer-link" href="#">Made by Michael Ogar</a>
         <a class="footer-link" href="https://michaelogar.substack.com/subscribe">Newsletter</a>
         <a class="footer-link" href="https://www.linkedin.com/in/michael-ogar-a6276b179">LinkedIn</a>
@@ -76,6 +89,6 @@
         <a class="footer-link" href="https://github.com/Mikeyboomin">GitHub <img class="git" src="images/github.png" alt=""/></a>
         <a class="footer-link" href="https://app.netlify.com/teams/mikeyboomin/overview">Netlify <img class="git" src="images/netlify-logo-png-transparent.png"alt="" /></a>
       </div>
-    <script src="script.js"></script>
+      <script src="script.js"></script>
 </body>
 </html>

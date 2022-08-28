@@ -10,6 +10,7 @@
     --nav-color: #292b2c;
     --logo-color: #FFFFFF;
     --navicon-color: #C9C9C9;
+    --yearprjt-color: #cc9966;
 }
 
 .light-theme {
@@ -22,6 +23,7 @@
     --nav-color: #ebebeb;
     --logo-color: #282D35;
     --navicon-color: #33373E;
+    --yearprjt-color: ##454545;
 }
 
 .logo {
@@ -101,7 +103,7 @@ body {
     }
     .idea {
         padding-right: 10px;
-        width: 30px;
+        width: 35px;
     }
     .git-hub {
         margin: 0;
@@ -139,7 +141,8 @@ body {
 /* Main Body*/
 .greeting {
     font-size: 32px;
-    color:  var(--tetiary-color);
+    /* color:  var(--tetiary-color); */
+    color: var(--navicon-color);
     font-weight: bold;
     margin: 0 10% 0 10%;
     margin-top: 100px;
@@ -156,7 +159,8 @@ body {
 
 .bio {
     font-size: 18px;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--navicon-color);
     /* margin: 0 75px 0 75px ; */
     padding: 0 10% 0 10%;
     align-items: center;
@@ -245,12 +249,14 @@ body {
   .contact-list {
     padding: 0 10% 0 10%;
     /* margin-left: 50px; */
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--navicon-color);
   }
 
   .wyd {
     font-size: 30px;
-    color:  var(--tetiary-color);
+    /* color:  var(--tetiary-color); */
+    color: var(--navicon-color);
     font-weight: bold;
     padding: 50px 10% 0 10%;
     overflow: hidden;
@@ -270,7 +276,8 @@ body {
   .sub-head {
     font-size: 20px;
     font-family: sans-serif;
-    color:  var(--tetiary-color);
+    /* color:  var(--tetiary-color); */
+    color: var(--navicon-color);
     font-weight: bold;
     margin-left: 75px;
     margin-top: 10px;
@@ -305,7 +312,8 @@ body {
   .arti {
     font-size: 18px;
     font-weight: 500;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--navicon-color);
     padding: 20px 10% 0 10%;
     align-items: center;
     text-align: left;
@@ -317,11 +325,13 @@ body {
   .news-btn {
     font-size: 18px;
     font-weight: 500;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--navicon-color);
     padding: 10px 20px 10px 20px;
     align-items: center;
     background-color: var(--background-color);
-    border: 0.1px solid var(--primary-color);
+    /* border: 0.1px solid var(--primary-color); */
+    border: 0.1px solid var(--navicon-color);
     margin: 10px 10% 0 10% ;
   }
 
@@ -333,7 +343,8 @@ body {
 
   .in-touch {
     font-size: 32px;
-    color:  var(--tetiary-color);
+    /* color:  var(--tetiary-color); */
+    color: var(--navicon-color);
     font-weight: bold;
     margin: 0 10% 0 10%;
     margin-top: 20%;
@@ -343,7 +354,8 @@ body {
 
   .in-touch-word {
     font-size: 18px;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: var(--navicon-color);
     padding: 10px 10% 0 10%;
     align-items: center;
     text-align: left;
@@ -352,4 +364,73 @@ body {
 
   .news-letter {
     
+  }
+
+  /* projects secs */
+
+  .prjt-card {
+    margin: 50px 10% 0 10%;
+    padding: 20px;
+    background-color: var(--nav-color);
+    border-radius: 5px;
+  }
+
+  .prjt-year {
+    color: var(--yearprjt-color);
+  }
+
+  .prjt-name {
+    color: var(--navicon-color);
+    font-weight: 700;
+  }
+
+  .prjt-desc {
+    color: var(--navicon-color);
+  }
+
+  .prjt-btn {
+    border: 0.01px groove var(--navicon-color);
+    /* border: thin var(--navicon-color); */
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: var(--nav-color);
+    color: var(--navicon-color);
+  }
+
+  .prjt-header {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 10% 0 10%;
+    margin-top: 100px;
+    overflow: hidden;
+    text-align: left;
+    color: var(--navicon-color);
+  }
+
+  .linka {
+    padding-left: 2px;
+  }
+
+  /* table of content */
+  .toc {
+    color: var(--navicon-color);
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  .subheading {
+    color: var(--navicon-color);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .toc-card {
+    margin: 50px 10% 0 10%;
+    padding: 20px;
+    background-color: var(--nav-color);
+    border-radius: 5px;
+  }
+
+  .table-content {
+    margin-top: 30%;
   }
